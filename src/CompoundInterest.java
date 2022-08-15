@@ -13,7 +13,7 @@ public class CompoundInterest {
          double rate = 1.5;
          int timeSpan = 6;
 
-         double CompoundInterest = 500 * (Math.pow((1 + rate / 100), timeSpan));
+         double CompoundInterest = principleAmount * (Math.pow((1 + rate / 100), timeSpan));
          
          System.out.println("The Compound Interest is: " + CompoundInterest);
     }

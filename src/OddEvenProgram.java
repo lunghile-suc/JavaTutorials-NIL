@@ -1,4 +1,4 @@
-public class App {
+public class OddEvenProgram {
     public static void main(String[] args) throws Exception {
         int valA = 60;
 
